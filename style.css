@@ -1,0 +1,47 @@
+body {
+    background: #DEA68E;
+}
+
+.container {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    text-align: center;
+
+}
+
+.quote {
+    border: 10px solid #9865E6;
+    width: 85%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: white;
+    background-color: #8DBDFC;
+
+
+}
+
+.quote p{ 
+    font-size: 2rem;
+}
+
+.quote h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.button {
+    text-align: center;
+}
+
+@media(max-width:480px) {
+    .quote p, .quote h3{ 
+        font-size: 1rem;
+    }
+    
+}
