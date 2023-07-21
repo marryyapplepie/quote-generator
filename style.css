@@ -4,7 +4,7 @@ body {
 
 .container {
     width: 90%;
-    height: 90vh;
+    height: 80vh;
     display: flex;
     text-align: center;
 
@@ -28,6 +28,7 @@ body {
 
 .quote p{ 
     font-size: 2rem;
+    width: 90%;
 }
 
 .quote h3 {
@@ -37,6 +38,35 @@ body {
 
 .button {
     text-align: center;
+    height: 10vh;
+    
+
+}
+
+button {
+    width: 30%;
+    height: 100%;
+    font-size: 1.5rem;
+}
+
+.links {
+    margin: auto;
+    margin-top: 10px;
+    height: 5vh;
+    width: 10vh;
+
+}
+
+.links img {
+    display: block;
+    margin: auto;
+    opacity: 50%;
+    width: 10vh;
+    height: 5vh;
+}
+
+.links img:hover {
+    opacity: 100%;
 }
 
 @media(max-width:480px) {
